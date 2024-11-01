@@ -10,14 +10,14 @@ body {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: rgb(64, 32, 192);
   color: white;
 }
 
 /* Main Header rules */
 
 header {
-  background-color: red;
+  background-color: rgb(64, 32, 192);
   padding: 10px 0px;
 }
 
@@ -30,7 +30,7 @@ header {
 /* Characters */
 #character_nav {
   background-color: #675050;
-  background-image: url("../images/characters_art_mas_mob_01.jpeg");
+  background-image: url("../images/inside-out_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -94,42 +94,38 @@ article p,
 }
 
 .sprite {
-  width: 150px;
-  height: 150px;
-  background-image: url("../images/marvelSprites.jpg");
+  width: 140px;
+  height: 154px;
+  background-image: url("../images/inside-outSprintes.jpg");
 }
 
-#cap {
+#joy {
   background-position: 0px 0px;
 }
 
-#carol {
-  background-position: -150px 0px;
+#sadness {
+  background-position: -140px 0px;
 }
 
-#clint {
-  background-position: -300px 0px;
+#anger {
+  background-position: -280px 0px;
 }
 
-#hulk {
-  background-position: -450px 0px;
+#disgust {
+  background-position: -420px 0px;
 }
 
-#thor {
-  background-position: -600px 0px;
+#fear {
+  background-position: -560px 0px;
 }
 
-#widow {
-  background-position: -750px 0px;
-}
-
-#cap:hover,
-#carol:hover,
-#clint:hover,
-#hulk:hover,
+#joy:hover,
+#sadness:hover,
+#anger:hover,
+#disgust:hover,
 #thor:hover,
-#widow:hover {
-  background-position-y: -150px;
+#fear:hover {
+  background-position-y: -154px;
 }
 
 /* Footer rules */
@@ -155,7 +151,7 @@ footer {
   left: 0px;
   background-color: rgba(0, 0, 0, 0.85);
   /*0.85 is transparent*/
-  background-image: url("../images/Cap_LB_Bg.png");
+  background-image: url("../images/Joy_LB_Bg.webp");
   background-repeat: no-repeat;
   background-size: 55vh;
   background-position: 40px bottom;
@@ -163,16 +159,20 @@ footer {
   display: none;
 }
 
-/*#lightbox {
-background-image: url('../css/images/Cap_LB_Bg.png');
-}*/
-
 #lightbox2 {
-  background-image: url("../images/Thor_LB_Bg.png");
+  background-image: url("../images/Sadness_LB_Bg.webp");
 }
 
 #lightbox3 {
-  background-image: url("../images/hulk.jpeg");
+  background-image: url("../images/Anger_LB_Bg.webp");
+}
+
+#lightbox4 {
+  background-image: url("../images/Disgust_LB_Bg.webp");
+}
+
+#lightbox5 {
+  background-image: url("../images/Fear_LB_Bg.webp");
 }
 
 .lightbox_close {
@@ -188,7 +188,7 @@ background-image: url('../css/images/Cap_LB_Bg.png');
 
 .lightbox_close:hover {
   opacity: 0.5;
-  color: red;
+  color: rgb(73, 43, 226);
 }
 
 .lightbox article {
