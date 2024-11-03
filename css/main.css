@@ -16,11 +16,6 @@ body {
 
 /* Main Header rules */
 
-header {
-  background-color: rgb(64, 32, 192);
-  padding: 10px 0px;
-}
-
 #main-logo {
   width: 300px;
   display: block;
@@ -29,7 +24,7 @@ header {
 
 /* Characters */
 #character_nav {
-  background-color: #675050;
+  background-color: #886c6c;
   background-image: url("../images/inside-out_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,29 +42,33 @@ header {
 
 .characters li {
   height: 220px;
-  margin: 10px 8px;
-  background-color: black;
+  margin: 10px 20px;
   text-align: left;
   cursor: pointer;
   /*--Transition--*/
   transition: box-shadow 0.2s ease;
   /*0.2s is the animation time*/
-  box-shadow: 0 155px 0 0 rgb(255, 0, 0) inset;
 
   /*---------------------*/
 }
 
 .characters li h5 {
   color: white;
-  padding: 12px 8px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .characters li a {
   text-decoration: none;
 }
 
-.characters li:hover {
-  box-shadow: 0 220px 0 0 rgb(255, 0, 0) inset;
+/*.characters li:hover {
+  box-shadow: 0 220px 0 0 red inset;
+  border-radius: 100px;
+}*/
+.joy-hover:hover {
+  box-shadow: 0 220px 0 0 yellow inset;
+  border-radius: 200px;
 }
 
 article,
@@ -94,9 +93,11 @@ article p,
 }
 
 .sprite {
-  width: 140px;
-  height: 154px;
-  background-image: url("../images/inside-outSprintes.jpg");
+  width: 200px;
+  height: 200px;
+  border: 8px solid white;
+  border-radius: 200px;
+  background-image: url("../images/insideoutSprintes.jpg");
 }
 
 #joy {
@@ -104,19 +105,19 @@ article p,
 }
 
 #sadness {
-  background-position: -140px 0px;
+  background-position: -200px 0px;
 }
 
 #anger {
-  background-position: -280px 0px;
+  background-position: -400px 0px;
 }
 
 #disgust {
-  background-position: -420px 0px;
+  background-position: -600px 0px;
 }
 
 #fear {
-  background-position: -560px 0px;
+  background-position: -800px 0px;
 }
 
 #joy:hover,
@@ -125,7 +126,7 @@ article p,
 #disgust:hover,
 #thor:hover,
 #fear:hover {
-  background-position-y: -154px;
+  background-position-y: -200px;
 }
 
 /* Footer rules */
