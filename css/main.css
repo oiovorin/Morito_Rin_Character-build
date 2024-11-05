@@ -48,7 +48,6 @@ body {
   border-radius: 200px;
   /*--Transition--*/
   transition: box-shadow 0.3s ease;
-  /*0.2s is the animation time*/
 
   /*---------------------*/
 }
@@ -64,23 +63,31 @@ body {
   text-decoration: none;
 }
 
-.joy-hover:hover {
+.joy-shadow:hover,
+.sadness-shadow:hover,
+.anger-shadow:hover,
+.disgust-shadow:hover,
+.fear-shadow:hover {
+  box-shadow: 0 0 20px white;
+}
+
+.joy-shadow:hover {
   border: 8px solid rgb(255, 221, 0);
 }
 
-.sadness-hover:hover {
+.sadness-shadow:hover {
   border: 8px solid rgb(6, 6, 174);
 }
 
-.anger-hover:hover {
+.anger-shadow:hover {
   border: 8px solid rgb(241, 23, 23);
 }
 
-.disgust-hover:hover {
+.disgust-shadow:hover {
   border: 8px solid rgb(54, 193, 11);
 }
 
-.fear-hover:hover {
+.fear-shadow:hover {
   border: 8px solid rgb(135, 6, 135);
 }
 
