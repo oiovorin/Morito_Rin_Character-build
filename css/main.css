@@ -239,6 +239,7 @@ footer {
 
 .quote {
   font-size: 23px;
+  font-style: italic;
 }
 
 .lightbox:target {
