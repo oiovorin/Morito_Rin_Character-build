@@ -213,7 +213,7 @@ footer {
 
 .lightbox_close:hover {
   opacity: 0.5;
-  color: rgb(148, 193, 255);
+  color: rgb(64, 202, 223);
 }
 
 .lightbox article {
@@ -233,26 +233,14 @@ footer {
   padding-top: 2em;
 }
 
+.lb_heading {
+  font-size: 35px;
+}
+
+.quote {
+  font-size: 23px;
+}
+
 .lightbox:target {
   display: block;
-}
-
-.joy-quote {
-  color: gold;
-}
-
-.sadness-quote {
-  color: rgb(124, 186, 249);
-}
-
-.anger-quote {
-  color: rgb(248, 83, 83);
-}
-
-.disgust-quote {
-  color: lightgreen;
-}
-
-.fear-quote {
-  color: rgb(210, 105, 255);
 }
